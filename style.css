@@ -1,0 +1,27 @@
+body{
+    background-color: deepskyblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    text-align: center;
+    color: white;
+}
+
+section{
+    margin: auto;
+    width: 500px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+footer{
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+}
+
+#lista{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
