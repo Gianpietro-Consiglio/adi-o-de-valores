@@ -1,14 +1,14 @@
-var button = window.document.getElementById('button')
-var button2 = window.document.getElementById('button2')
+let button = window.document.getElementById('button')
+let button2 = window.document.getElementById('button2')
 button.addEventListener('click',adicionar)
 button2.addEventListener('click', finalizar)
-var lista = []
-var quadrado = window.document.getElementById('lista')
-var txt1 = window.document.getElementById('txt1')
-var txt2 = window.document.getElementById('txt2')
-var txt3 = window.document.getElementById('txt3')
-var txt4 = window.document.getElementById('txt4')
-var txt5 = window.document.getElementById('txt5')
+let lista = []
+let quadrado = window.document.getElementById('lista')
+let txt1 = window.document.getElementById('txt1')
+let txt2 = window.document.getElementById('txt2')
+let txt3 = window.document.getElementById('txt3')
+let txt4 = window.document.getElementById('txt4')
+let txt5 = window.document.getElementById('txt5')
 
 function adicionar(){
     txt1.innerHTML = ``
@@ -35,12 +35,10 @@ function adicionar(){
         } 
     }
 
-
-
 function finalizar(){
     lista = lista.sort()
     soma = 0
-    for(var i=0;i<lista.length;i++){
+    for(let i=0;i<lista.length;i++){
         soma += lista[i]
     }
     txt1.innerHTML = `Ao todo, temos ${lista.length} números cadastrados.<br>`
